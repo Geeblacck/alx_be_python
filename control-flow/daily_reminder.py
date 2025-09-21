@@ -1,3 +1,4 @@
+# daily_reminder.py
 
 # Prompt the user for task details
 task = input("Enter your task: ")
@@ -26,5 +27,5 @@ elif time_bound == "no":
 else:
     reminder += ". (Time-sensitivity not recognized, please answer 'yes' or 'no')"
 
-# Print the customized reminder
-print("\nReminder:", reminder)
+# ✅ Print in the required format
+print(f"Reminder: {reminder}")
